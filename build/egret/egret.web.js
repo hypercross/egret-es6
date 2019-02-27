@@ -3082,7 +3082,7 @@ var egret;
              * @private
              */
             WebTouchHandler.prototype.getLocation = function (event) {
-                event.identifier = +event.identifier || 0;
+                // event.identifier = +event.identifier || 0;
                 var doc = document.documentElement;
                 var box = this.canvas.getBoundingClientRect();
                 var left = box.left + window.pageXOffset - doc.clientLeft;
