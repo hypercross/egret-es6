@@ -36,7 +36,8 @@ r.prototype = e.prototype, t.prototype = new r();
 //  EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 //////////////////////////////////////////////////////////////////////////////////////
-import egret from "./egret";
+import egretimported from "./egret";
+var egret = egretimported;
 (function (egret) {
     var web;
     (function (web) {
@@ -2514,8 +2515,8 @@ var egret;
                     inputElement = document.createElement("input");
                     self._simpleElement = inputElement;
                     inputElement.id = "egretInput";
+                    inputElement.type = "text";
                 }
-                inputElement.type = "text";
                 self._inputDIV.appendChild(inputElement);
                 inputElement.setAttribute("tabindex", "-1");
                 inputElement.style.width = "1px";

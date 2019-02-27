@@ -2480,3 +2480,5 @@ declare namespace egret {
      */
     function clearTimeout(key: number): void;
 }
+
+export default egret;

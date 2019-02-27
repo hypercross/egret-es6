@@ -36,7 +36,8 @@ r.prototype = e.prototype, t.prototype = new r();
 //  EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 //////////////////////////////////////////////////////////////////////////////////////
-import egret from "../egret/egret";
+import egretimported from "../egret/egret";
+var egret = egretimported;
 (function (egret) {
     /**
      * The URLLoaderDataFormat class provides values that specify how downloaded data is received.

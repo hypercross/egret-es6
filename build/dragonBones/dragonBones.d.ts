@@ -1,3 +1,4 @@
+import egret from "../egret/egret";
 declare namespace dragonBones {
     /**
      * @internal
@@ -8469,3 +8470,5 @@ declare namespace dragonBones {
         readonly animationList: string[];
     }
 }
+
+export default dragonBones;

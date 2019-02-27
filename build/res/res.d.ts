@@ -1450,3 +1450,5 @@ declare namespace egret {
 }
 declare namespace egret {
 }
+
+export default RES;

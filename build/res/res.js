@@ -36,6 +36,8 @@ r.prototype = e.prototype, t.prototype = new r();
 //  EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 //////////////////////////////////////////////////////////////////////////////////////
+import egretimported from "../egret/egret";
+var egret = egretimported;
 var RES;
 (function (RES) {
     /**
@@ -3375,3 +3377,5 @@ var egret;
     locale_strings[3202] = "请不要使用不同的类型方式来加载同一个素材！";
     locale_strings[3203] = "找不到指定文件类型的解析器:{0}。 请先在项目初始化里注册指定文件类型的解析器，再启动资源加载。";
 })(egret || (egret = {}));
+
+export default RES;

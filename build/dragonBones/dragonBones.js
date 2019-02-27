@@ -9,6 +9,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+import egret from "../egret/egret";
 var dragonBones;
 (function (dragonBones) {
 })(dragonBones || (dragonBones = {}));
@@ -34,7 +35,6 @@ var dragonBones;
  * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
-import egret from "../egret/egret";
 var dragonBones;
 (function (dragonBones) {
     /**

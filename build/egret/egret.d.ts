@@ -14981,3 +14981,5 @@ declare namespace egret.sys {
         new (width?: number, height?: number): RenderBuffer;
     };
 }
+
+export default egret;
